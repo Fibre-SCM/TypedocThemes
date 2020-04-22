@@ -1,6 +1,6 @@
 {
-  "name": "typedoc-default-themes",
-  "description": "Default themes for TypeDoc.",
+  "name": "@fibre/typedoc-themes",
+  "description": "Themes for TypeDoc.",
   "version": "0.10.1",
   "homepage": "https://typedoc.org/",
   "main": "bin/plugin.js",
@@ -12,14 +12,15 @@
     "clean": "rimraf bin",
     "grunt": "grunt",
     "build": "npm run clean && npm run grunt",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "release": "npm publish --scope=@fibre --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TypeStrong/typedoc-default-themes.git"
+    "url": "git://github.com/Fibre-SCM/TypedocThemes.git"
   },
   "bugs": {
-    "url": "https://github.com/TypeStrong/TypeDoc/issues"
+    "url": "https://github.com/Fibre-SCM/TypedocThemes/issues"
   },
   "license": "Apache-2.0",
   "engines": {
